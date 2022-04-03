@@ -1,13 +1,19 @@
 
 /*
  * The theme colors are:
- * orange: #e91e63
+ * pink: #d32d7d
  *
  * Some customizations are borrowed from Patrick Kidger's Equinox docs (under Apache 2 license).
  * */
 
-[data-md-color-primary="blue"] .md-header, [data-md-color-primary="blue"] .md-hero {
-    background-color: #e91e63 !important;
+:root {
+  --md-primary-fg-color:        #d32d7d;
+  --md-primary-fg-color--light: #d32d7d;
+  --md-primary-fg-color--dark:  #d32d7d;
+}
+
+[data-md-color-primary="pink"] .md-header, [data-md-color-primary="pink"] .md-hero {
+    background-color: #d32d7d !important;
     height: 2.8rem;
     padding-top: 5px;
 }
@@ -17,7 +23,7 @@
 }
 
 .md-nav--secondary {
-    border-left: .15rem solid #e91e63;
+    border-left: .15rem solid #d32d7d;
     border-right: none;
 }
 
