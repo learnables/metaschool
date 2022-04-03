@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>http://metaschool.net/</loc>
+         <loc>http://learnables.github.io/metaschool/</loc>
          <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://metaschool.net/changelog/</loc>
+         <loc>http://learnables.github.io/metaschool/changelog/</loc>
          <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://metaschool.net/api/</loc>
+         <loc>http://learnables.github.io/metaschool/api/</loc>
          <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>http://metaschool.net/api/utils/</loc>
+         <loc>http://learnables.github.io/metaschool/api/metaschool.envs/</loc>
+         <lastmod>2022-04-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://learnables.github.io/metaschool/api/metaschool.tasks/</loc>
          <lastmod>2022-04-03</lastmod>
          <changefreq>daily</changefreq>
     </url>

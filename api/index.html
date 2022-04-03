@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="http://metaschool.net/api/">
+        <link rel="canonical" href="http://learnables.github.io/metaschool/api/">
       
       
         <meta name="author" content="Séb Arnold">
@@ -120,7 +120,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#mypackage" tabindex="0" class="md-skip">
+      <a href="#metaschool" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -129,7 +129,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="http://metaschool.net/" title="metaschool" aria-label="metaschool" class="md-header-nav__button md-logo">
+        <a href="http://learnables.github.io/metaschool/" title="metaschool" aria-label="metaschool" class="md-header-nav__button md-logo">
           
             <img alt="logo" src="../assets/images/metaschool_white.png" width="24" height="24">
           
@@ -214,7 +214,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="http://metaschool.net/" title="metaschool" class="md-nav__button md-logo">
+    <a href="http://learnables.github.io/metaschool/" title="metaschool" class="md-nav__button md-logo">
       
         <img alt="logo" src="../assets/images/metaschool_white.png" width="48" height="48">
       
@@ -291,9 +291,152 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        metaschool
+      </label>
+    
     <a href="./" title="metaschool" class="md-nav__link md-nav__link--active">
       metaschool
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#base-classes" class="md-nav__link">
+    Base Classes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.TaskConfig" class="md-nav__link">
+    TaskConfig
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.EnvFactory" class="md-nav__link">
+    EnvFactory
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.EnvFactory.make" class="md-nav__link">
+    make()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.EnvFactory.sample" class="md-nav__link">
+    sample()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.WrapperFactory" class="md-nav__link">
+    WrapperFactory
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.WrapperFactory.sample" class="md-nav__link">
+    sample()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.WrapperFactory.wrap" class="md-nav__link">
+    wrap()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utility-classes" class="md-nav__link">
+    Utility Classes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.GymTaskset" class="md-nav__link">
+    GymTaskset
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.GymTaskset.__init__" class="md-nav__link">
+    __init__()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.GymTaskset.make_like" class="md-nav__link">
+    make_like()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.GymTaskset.sample" class="md-nav__link">
+    sample()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -304,8 +447,20 @@
 
 
   <li class="md-nav__item">
-    <a href="utils/" title="metaschool.utils" class="md-nav__link">
-      metaschool.utils
+    <a href="metaschool.tasks/" title="metaschool.tasks" class="md-nav__link">
+      metaschool.tasks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="metaschool.envs/" title="metaschool.envs" class="md-nav__link">
+      metaschool.envs
     </a>
   </li>
 
@@ -356,6 +511,136 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#base-classes" class="md-nav__link">
+    Base Classes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.TaskConfig" class="md-nav__link">
+    TaskConfig
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.EnvFactory" class="md-nav__link">
+    EnvFactory
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.EnvFactory.make" class="md-nav__link">
+    make()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.EnvFactory.sample" class="md-nav__link">
+    sample()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.WrapperFactory" class="md-nav__link">
+    WrapperFactory
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.WrapperFactory.sample" class="md-nav__link">
+    sample()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.WrapperFactory.wrap" class="md-nav__link">
+    wrap()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utility-classes" class="md-nav__link">
+    Utility Classes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.GymTaskset" class="md-nav__link">
+    GymTaskset
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.GymTaskset.__init__" class="md-nav__link">
+    __init__()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.GymTaskset.make_like" class="md-nav__link">
+    make_like()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaschool.GymTaskset.sample" class="md-nav__link">
+    sample()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -367,7 +652,416 @@
               
                 
                 
-                <h1 id="mypackage">mypackage<a class="headerlink" href="#mypackage" title="Permanent link">&para;</a></h1>
+                <h1 id="metaschool">metaschool<a class="headerlink" href="#metaschool" title="Permanent link">&para;</a></h1>
+<h2 id="base-classes">Base Classes<a class="headerlink" href="#base-classes" title="Permanent link">&para;</a></h2>
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h3 id="metaschool.TaskConfig" class="doc doc-heading">
+        <code>
+metaschool.TaskConfig        </code>
+
+
+
+<a href="#metaschool.TaskConfig" class="headerlink" title="Permanent link">&para;</a></h3>
+
+    <div class="doc doc-contents first">
+
+      <p><a href="https://github.com/learnables/metaschool/blob/master/metaschool/base.py" class="source-link">[Source]</a></p>
+<h5 id="metaschool.TaskConfig--description">Description<a class="headerlink" href="#metaschool.TaskConfig--description" title="Permanent link">&para;</a></h5>
+<p>Dictionary-like object to store task and wrapper configurations.</p>
+<h5 id="metaschool.TaskConfig--example">Example<a class="headerlink" href="#metaschool.TaskConfig--example" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="n">config</span> <span class="o">=</span> <span class="n">TaskConfig</span><span class="p">(</span><span class="n">seed</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">car</span><span class="o">=</span><span class="s1">&#39;Volvo&#39;</span><span class="p">)</span>
+<span class="n">config</span><span class="o">.</span><span class="n">location</span> <span class="o">=</span> <span class="s1">&#39;Town2&#39;</span>
+<span class="n">config</span><span class="o">.</span><span class="n">weather</span> <span class="o">=</span> <span class="s1">&#39;Cloudy&#39;</span>
+</code></pre></div>
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h3 id="metaschool.EnvFactory" class="doc doc-heading">
+        <code>
+metaschool.EnvFactory        </code>
+
+
+
+<a href="#metaschool.EnvFactory" class="headerlink" title="Permanent link">&para;</a></h3>
+
+    <div class="doc doc-contents first">
+
+      <p><a href="https://github.com/learnables/metaschool/blob/master/metaschool/base.py" class="source-link">[Source]</a></p>
+<h5 id="metaschool.EnvFactory--description">Description<a class="headerlink" href="#metaschool.EnvFactory--description" title="Permanent link">&para;</a></h5>
+<p>Base class to define how a task is created, and how its configuration is sampled.
+Task creation proceeds in two steps:</p>
+<ol>
+<li>Sampling of the random parameters of the task (see <code>sample()</code>).</li>
+<li>Instantiation of the task given chosen parameters (see <code>make()</code>).</li>
+</ol>
+<p>In a single-task setting, this is typically done with one large function (typically named <code>make_env</code>).</p>
+<h5 id="metaschool.EnvFactory--example">Example<a class="headerlink" href="#metaschool.EnvFactory--example" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">DrivingFactory</span><span class="p">(</span><span class="n">EnvFactory</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">make</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+        <span class="n">env</span> <span class="o">=</span> <span class="n">gym</span><span class="o">.</span><span class="n">make</span><span class="p">(</span><span class="s1">&#39;DrivingEnv-v0&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">config</span><span class="p">)</span>
+        <span class="n">env</span> <span class="o">=</span> <span class="n">gym</span><span class="o">.</span><span class="n">wrappers</span><span class="o">.</span><span class="n">RecordEpisodeStatistics</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">env</span>
+
+    <span class="k">def</span> <span class="nf">sample</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">TaskConfig</span><span class="p">(</span><span class="n">location</span><span class="o">=</span><span class="s1">&#39;Town2&#39;</span><span class="p">,</span> <span class="n">weather</span><span class="o">=</span><span class="s1">&#39;Sunny&#39;</span><span class="p">)</span>
+        <span class="n">config</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="s1">&#39;Volvo&#39;</span><span class="p">,</span> <span class="s1">&#39;Mercedes&#39;</span><span class="p">,</span> <span class="s1">&#39;Audi&#39;</span><span class="p">,</span> <span class="s1">&#39;Hummer&#39;</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">config</span>
+
+<span class="n">factory</span> <span class="o">=</span> <span class="n">DrivingFactory</span><span class="p">()</span>
+<span class="n">train_task</span> <span class="o">=</span> <span class="n">factory</span><span class="o">.</span><span class="n">make</span><span class="p">(</span><span class="n">factory</span><span class="o">.</span><span class="n">sample</span><span class="p">())</span>
+<span class="n">test_task</span> <span class="o">=</span> <span class="n">factory</span><span class="o">.</span><span class="n">make</span><span class="p">(</span><span class="n">factory</span><span class="o">.</span><span class="n">sample</span><span class="p">())</span>
+</code></pre></div>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h4 id="metaschool.EnvFactory.make" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">make</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">:</span> <span class="n">TaskConfig</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Env</span></code>
+
+
+<a href="#metaschool.EnvFactory.make" class="headerlink" title="Permanent link">&para;</a></h4>
+
+    <div class="doc doc-contents ">
+
+      <h6 id="metaschool.EnvFactory.make--description">Description<a class="headerlink" href="#metaschool.EnvFactory.make--description" title="Permanent link">&para;</a></h6>
+<p>Defines how to create a task, given a configuration.</p>
+<p>Use this method to wrap your base environment with the default wrappers.
+It's important that this method be deterministic when given the same
+configuration twice -- this allows to generate identical copies of the same task.</p>
+<h6 id="metaschool.EnvFactory.make--arguments">Arguments<a class="headerlink" href="#metaschool.EnvFactory.make--arguments" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>config</code> (TaskConfig) - Configuration of the task.</li>
+</ul>
+<h6 id="metaschool.EnvFactory.make--returns">Returns<a class="headerlink" href="#metaschool.EnvFactory.make--returns" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>env</code> (Env) - The gym environment defined according to config.</li>
+</ul>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h4 id="metaschool.EnvFactory.sample" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">sample</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">TaskConfig</span></code>
+
+
+<a href="#metaschool.EnvFactory.sample" class="headerlink" title="Permanent link">&para;</a></h4>
+
+    <div class="doc doc-contents ">
+
+      <h6 id="metaschool.EnvFactory.sample--description">Description<a class="headerlink" href="#metaschool.EnvFactory.sample--description" title="Permanent link">&para;</a></h6>
+<p>Defines the sampling procedure over the task parameters.</p>
+<p>Use this method to choose the axes of variation across tasks.
+For example, the above snippet ensures that the driving environment will
+always be in Town2 with a sunny weather; the car make is randomized.</p>
+<h6 id="metaschool.EnvFactory.sample--returns">Returns<a class="headerlink" href="#metaschool.EnvFactory.sample--returns" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>config</code> (TaskConfig) - A randomly sampled task configuration for this environment.</li>
+</ul>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h3 id="metaschool.WrapperFactory" class="doc doc-heading">
+        <code>
+metaschool.WrapperFactory        </code>
+
+
+
+<a href="#metaschool.WrapperFactory" class="headerlink" title="Permanent link">&para;</a></h3>
+
+    <div class="doc doc-contents first">
+
+      <p><a href="https://github.com/learnables/metaschool/blob/master/metaschool/base.py" class="source-link">[Source]</a></p>
+<h5 id="metaschool.WrapperFactory--description">Description<a class="headerlink" href="#metaschool.WrapperFactory--description" title="Permanent link">&para;</a></h5>
+<p>Base class to define how a task is created, and how its configuration is sampled.</p>
+<p>It is useful when some axes of variation across tasks are more easily implemented
+through wrappers around a <code>gym.Env</code>.
+It also allows for re-use of wrapper factories across projects.</p>
+<h5 id="metaschool.WrapperFactory--example">Example<a class="headerlink" href="#metaschool.WrapperFactory--example" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">ChangingHorizonFactory</span><span class="p">(</span><span class="n">EnvFactory</span><span class="p">):</span>
+
+    <span class="n">min_horizon</span> <span class="o">=</span> <span class="mi">20</span>
+    <span class="n">max_horizon</span> <span class="o">=</span> <span class="mi">200</span>
+
+    <span class="k">def</span> <span class="nf">wrap</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">gym</span><span class="o">.</span><span class="n">wrappers</span><span class="o">.</span><span class="n">TimeLimit</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">max_episode_steps</span><span class="o">=</span><span class="n">config</span><span class="o">.</span><span class="n">max_steps</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">sample</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">TaskConfig</span><span class="p">(</span><span class="n">max_steps</span><span class="o">=</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">min_horizon</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">max_horizon</span><span class="p">))</span>
+
+<span class="n">wrapper_factory</span> <span class="o">=</span> <span class="n">ChangingHorizonFactory</span><span class="p">()</span>
+<span class="n">wrapper_config</span> <span class="o">=</span> <span class="n">wrapper_config</span><span class="o">.</span><span class="n">sample</span><span class="p">()</span>
+<span class="n">task</span> <span class="o">=</span> <span class="n">wrapper_factory</span><span class="o">.</span><span class="n">wrap</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="n">wrapper_config</span><span class="p">)</span>
+</code></pre></div>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h4 id="metaschool.WrapperFactory.sample" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">sample</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">Env</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">TaskConfig</span></code>
+
+
+<a href="#metaschool.WrapperFactory.sample" class="headerlink" title="Permanent link">&para;</a></h4>
+
+    <div class="doc doc-contents ">
+
+      <h6 id="metaschool.WrapperFactory.sample--description">Description<a class="headerlink" href="#metaschool.WrapperFactory.sample--description" title="Permanent link">&para;</a></h6>
+<p>Samples a parameter configuration for the current wrapper.</p>
+<h6 id="metaschool.WrapperFactory.sample--arguments">Arguments<a class="headerlink" href="#metaschool.WrapperFactory.sample--arguments" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>env</code> (Env, <em>optional</em>, default=None) - The environment to be wrapped.</li>
+</ul>
+<h6 id="metaschool.WrapperFactory.sample--returns">Returns<a class="headerlink" href="#metaschool.WrapperFactory.sample--returns" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>config</code> (TaskConfig) - The sampled parameter configuration.</li>
+</ul>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h4 id="metaschool.WrapperFactory.wrap" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">wrap</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">Env</span><span class="p">,</span> <span class="n">config</span><span class="p">:</span> <span class="n">TaskConfig</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Env</span></code>
+
+
+<a href="#metaschool.WrapperFactory.wrap" class="headerlink" title="Permanent link">&para;</a></h4>
+
+    <div class="doc doc-contents ">
+
+      <h6 id="metaschool.WrapperFactory.wrap--description">Description<a class="headerlink" href="#metaschool.WrapperFactory.wrap--description" title="Permanent link">&para;</a></h6>
+<p>Wraps a gym environment according to the parameters defined in config.</p>
+<h6 id="metaschool.WrapperFactory.wrap--arguments">Arguments<a class="headerlink" href="#metaschool.WrapperFactory.wrap--arguments" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>env</code> (Env) - The environment to wrap.</li>
+<li><code>config</code> (TaskConfig) - The configuration of the wrapper parameters.</li>
+</ul>
+<h6 id="metaschool.WrapperFactory.wrap--returns">Returns<a class="headerlink" href="#metaschool.WrapperFactory.wrap--returns" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>env</code> (Env) - The wrapped environment.</li>
+</ul>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+<h2 id="utility-classes">Utility Classes<a class="headerlink" href="#utility-classes" title="Permanent link">&para;</a></h2>
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h3 id="metaschool.GymTaskset" class="doc doc-heading">
+        <code>
+metaschool.GymTaskset        </code>
+
+
+
+<a href="#metaschool.GymTaskset" class="headerlink" title="Permanent link">&para;</a></h3>
+
+    <div class="doc doc-contents first">
+
+      <p><a href="https://github.com/learnables/metaschool/blob/master/metaschool/gym_taskset.py" class="source-link">[Source]</a></p>
+<h5 id="metaschool.GymTaskset--description">Description<a class="headerlink" href="#metaschool.GymTaskset--description" title="Permanent link">&para;</a></h5>
+<p>A utility class to easily sample tasks and keeping track of previously seen tasks.</p>
+<h5 id="metaschool.GymTaskset--example">Example<a class="headerlink" href="#metaschool.GymTaskset--example" title="Permanent link">&para;</a></h5>
+<div class="highlight"><pre><span></span><code><span class="n">taskset</span> <span class="o">=</span> <span class="n">GymTaskset</span><span class="p">(</span>
+    <span class="n">env_factory</span><span class="o">=</span><span class="n">MyEnvFactory</span><span class="p">(),</span>
+    <span class="n">wrapper_factories</span><span class="o">=</span><span class="p">[</span>
+        <span class="n">MyWrapperFactory1</span><span class="p">(),</span>
+        <span class="n">MyWrapperFactory2</span><span class="p">(),</span>
+        <span class="n">MyWrapperFactory3</span><span class="p">(),</span>
+    <span class="p">],</span>
+<span class="p">)</span>
+<span class="k">for</span> <span class="n">iteration</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_iterations</span><span class="p">):</span>
+    <span class="n">train_task</span> <span class="o">=</span> <span class="n">taskset</span><span class="o">.</span><span class="n">sample</span><span class="p">()</span>
+    <span class="c1"># ... train on train_task ...</span>
+    <span class="n">test_task</span> <span class="o">=</span> <span class="n">taskset</span><span class="o">.</span><span class="n">make_like</span><span class="p">(</span><span class="n">train_task</span><span class="p">)</span>
+    <span class="c1"># ... test on freshly generated (and identical) test_task ...</span>
+
+<span class="c1"># enumerate sampled tasks</span>
+<span class="k">for</span> <span class="n">seen_task</span> <span class="ow">in</span> <span class="nb">iter</span><span class="p">(</span><span class="n">taskset</span><span class="p">):</span>
+    <span class="c1"># ... process previously seen task ...</span>
+</code></pre></div>
+
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h4 id="metaschool.GymTaskset.__init__" class="doc doc-heading">
+<code class="highlight language-python"><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env_factory</span><span class="p">,</span> <span class="n">wrapper_factories</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span></code>
+
+
+<a href="#metaschool.GymTaskset.__init__" class="headerlink" title="Permanent link">&para;</a></h4>
+
+    <div class="doc doc-contents ">
+
+      <h6 id="metaschool.GymTaskset.__init__--arguments">Arguments<a class="headerlink" href="#metaschool.GymTaskset.__init__--arguments" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>env_factory</code> (EnvFactory) - An environment factory.</li>
+<li><code>wrapper_factories</code> (WrapperFactory, <em>optional</em>, default=None) - A list of wrapper factories.</li>
+</ul>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h4 id="metaschool.GymTaskset.make_like" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">make_like</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">:</span> <span class="n">Env</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Env</span></code>
+
+
+<a href="#metaschool.GymTaskset.make_like" class="headerlink" title="Permanent link">&para;</a></h4>
+
+    <div class="doc doc-contents ">
+
+      <h6 id="metaschool.GymTaskset.make_like--description">Description<a class="headerlink" href="#metaschool.GymTaskset.make_like--description" title="Permanent link">&para;</a></h6>
+<p>Given a previously sampled environment, instantiates a new copy based on its
+sampled (env and wrapper) configurations.</p>
+<p>Useful to have identical environment instances for training and testing.</p>
+<h6 id="metaschool.GymTaskset.make_like--arguments">Arguments<a class="headerlink" href="#metaschool.GymTaskset.make_like--arguments" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>env</code> (Env) - The environment to copy.</li>
+</ul>
+<h6 id="metaschool.GymTaskset.make_like--returns">Returns<a class="headerlink" href="#metaschool.GymTaskset.make_like--returns" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>env</code> (Env) - The newly created copy.</li>
+</ul>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h4 id="metaschool.GymTaskset.sample" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">sample</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Env</span></code>
+
+
+<a href="#metaschool.GymTaskset.sample" class="headerlink" title="Permanent link">&para;</a></h4>
+
+    <div class="doc doc-contents ">
+
+      <h6 id="metaschool.GymTaskset.sample--description">Description<a class="headerlink" href="#metaschool.GymTaskset.sample--description" title="Permanent link">&para;</a></h6>
+<p>Samples environment and wrapper configurations, and returns the instantiated
+wrapped environment.</p>
+<h6 id="metaschool.GymTaskset.sample--returns">Returns<a class="headerlink" href="#metaschool.GymTaskset.sample--returns" title="Permanent link">&para;</a></h6>
+<ul>
+<li><code>env</code> (Env) - The wrapped environment with newly sampled configurations.</li>
+</ul>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
                 
                   
                 
@@ -404,13 +1098,13 @@
           </a>
         
         
-          <a href="utils/" title="metaschool.utils" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="metaschool.tasks/" title="metaschool.tasks" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                metaschool.utils
+                metaschool.tasks
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
