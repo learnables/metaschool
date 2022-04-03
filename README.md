@@ -21,7 +21,7 @@ Our hope is that it will simplify research in mutli-task, lifelong, and meta-rei
 * MSR Jumping: [https://arxiv.org/abs/1809.02591](https://arxiv.org/abs/1809.02591)
 * ... and more since metaschool is easily extensible.
 
-## Minimal Demo
+## Illustrative Demo
 
 Let's assume we have a base Gym environment `DrivingEnv-v0` for training self-driving system in different conditions (locations, weather, car maker).
 We can turn this environment into a set of multiple tasks as follows.
