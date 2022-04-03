@@ -70,7 +70,7 @@ A human-readable changelog is available in the [CHANGELOG.md](CHANGELOG.md) file
 
 To cite this code in your academic publications, please use the following reference.
 
-> Arnold, Sebastien M. R. “metaschool: Utilities for Multi-Task Reinforcement Learning”. 2022.
+> Arnold, Sebastien M. R. “metaschool: A Gym Interface for Multi-Task Reinforcement Learning”. 2022.
 
 You can also use the following Bibtex entry.
 
@@ -79,7 +79,7 @@ You can also use the following Bibtex entry.
   author = {Arnold, Sebastien M. R.},
   doi = {10.5281/zenodo.1234},
   month = {12},
-  title = {{metaschool: Utilities for Multi-Task Reinforcement Learning}},
+  title = {{metaschool: A Gym Interface for Multi-Task Reinforcement Learning}},
   url = {https://github.com/learnables/metaschool},
   version = {0.0.1},
   year = {2022}
