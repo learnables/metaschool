@@ -127,7 +127,7 @@ class WrapperFactory(object):
     ## Example
 
     ~~~python
-    class ChangingHorizonFactory(EnvFactory):
+    class ChangingHorizonFactory(WrapperFactory):
 
         min_horizon = 20
         max_horizon = 200
