@@ -7,7 +7,7 @@ from setuptools import (
         )
 
 # Parses version number: https://stackoverflow.com/a/7071358
-VERSIONFILE = 'mypackage/_version.py'
+VERSIONFILE = 'metaschool/_version.py'
 verstrline = open(VERSIONFILE, "rt").read()
 VSRE = r"^__version__ = ['\"]([^'\"]*)['\"]"
 mo = re.search(VSRE, verstrline, re.M)
@@ -18,20 +18,21 @@ else:
 
 # Installs the package
 setup(
-    name='mypackage',
+    name='metaschool',
     packages=find_packages(),
     version=VERSION,
-    description='Description of my super mypackage.',
+    description='Lightweight Gym interface for multi-task and meta-learning.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Seb Arnold',
     author_email='smr.arnold@gmail.com',
-    url='https://learnables.github.com/mypackage',
-    download_url='https://github.com/seba-1511/mypackage/archive/' + str(VERSION) + '.zip',
+    url='https://learnables.github.com/metaschool',
+    download_url='https://github.com/learnables/metaschool/archive/' + str(VERSION) + '.zip',
     license='License :: OSI Approved :: Apache Software License',
     classifiers=[],
     scripts=[],
     install_requires=[
         # Add requirements here
+        'gym',
     ],
 )

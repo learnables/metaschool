@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Custom
-docs/mkdocs.yml
+.all_objects.cache

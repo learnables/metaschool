@@ -2,26 +2,27 @@
 nav:
   - Home: index.md
   - Documentation:
-    - mypackage: api/index.md
-    - mypackage.utils: api/utils.md
+    - metaschool: api/index.md
+    - metaschool.tasks: api/metaschool.tasks.md
+    - metaschool.envs: api/metaschool.envs.md
   - Changelog: changelog.md
-  - GitHub: https://github.com/seba-1511/mypackage/
+  - GitHub: https://github.com/learnables/metaschool/
 
 docs_dir: ./docs
-site_name: mypackage
-site_url: http://mypackage.net
+site_name: metaschool
+site_url: http://learnables.github.io/metaschool
 site_author: 'Séb Arnold'
 google_analytics: ['UA-68693545-3', 'seba-1511.github.com']
-repo_name: 'seba-1511/mypackage'
-repo_url: 'https://github.com/seba-1511/mypackage'
+repo_name: 'learnables/metaschool'
+repo_url: 'https://github.com/learnables/metaschool'
 edit_uri: ''
 theme:
   name: 'material'
-  logo: 'assets/images/mypackage.png'
-  favicon: 'assets/images/favicon.ico'
+  logo: 'assets/images/metaschool_white.png'
+  favicon: 'assets/images/favicons_pink/favicon.ico'
   palette:
-    primary: 'white'
-    accent: 'orange'
+    primary: 'pink'
+    accent: 'green'
   font:
       text: 'Source Sans Pro'
       code: 'Ubuntu Mono'
@@ -43,7 +44,7 @@ extra:
     - type: 'twitter'
       link: 'https://twitter.com/seba1511'
     - type: 'bug'
-      link: 'https://github.com/seba-1511/mypackage/issues/new'
+      link: 'https://github.com/learnables/metaschool/issues/new'
 
 plugins:
   - search

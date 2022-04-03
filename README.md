@@ -1,9 +1,5 @@
-# mypackage
+<p align="center"><img src="https://raw.githubusercontent.com/learnables/metaschool/gh-pages/assets/img/l2l-full.png" height="120px" /></p>
 
 --------------------------------------------------------------------------------
 
-![Test Status](https://github.com/seba-1511/mypackage/workflows/Testing/badge.svg?branch=master)
-
-Template to start new PyPI packages
-
-To get started, grep and replace for `mypackage` everywhere.
+![Test Status](https://github.com/learnables/metaschool/workflows/Testing/badge.svg?branch=master)
