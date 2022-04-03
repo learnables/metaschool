@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 
-import torch
 import gym
+try:
+    import torch
+except ImportError:
+    import metaschool as ms
+    torch = ms.utils._ImportRaiser('torch', 'pip install torch')
 
 
 class DefaultColors:

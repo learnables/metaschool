@@ -1,7 +1,7 @@
 
 # metaschool.envs
 
-OpenAI Gym environments provided with metaschool.
+OpenAI Gym environments included with metaschool.
 
 
 ::: metaschool.envs.MSRJumpEnv

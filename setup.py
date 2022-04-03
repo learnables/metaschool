@@ -32,7 +32,6 @@ setup(
     classifiers=[],
     scripts=[],
     install_requires=[
-        # Add requirements here
         'gym',
     ],
 )
