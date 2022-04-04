@@ -29,7 +29,7 @@ At its essence, `metaschool` builds on 3 basic classes:
 - [`WrapperFactory`](http://learnables.net/metaschool/api/#metaschool.WrapperFactory): An (optional) class to generate wrappers, given a configuration.
 - [`TaskConfig`](http://learnables.net/metaschool/api/#metaschool.TaskConfig): A simple dict-like object to configure tasks.
 
-Let's assume we have a base Gym environment `DrivingEnv-v0` for training self-driving system in different conditions (locations, weather, car maker).
+Now, say we have a base Gym environment `DrivingEnv-v0` for training self-driving system in different conditions (locations, weather, car maker).
 We can turn this environment into a set of multiple tasks as follows.
 
 Note: we also use a [`GymTaskset`](http://learnables.net/metaschool/api/#metaschool.GymTaskset), which lets us automatically sample and keep track of tasks.
