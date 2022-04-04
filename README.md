@@ -32,7 +32,7 @@ At its essence, `metaschool` builds on 3 basic classes:
 Let's assume we have a base Gym environment `DrivingEnv-v0` for training self-driving system in different conditions (locations, weather, car maker).
 We can turn this environment into a set of multiple tasks as follows.
 
-Note: here we also use a `GymTaskset`, which lets us automatically sample and keep track of tasks.
+Note: we also use a [`GymTaskset`](http://learnables.net/metaschool/api/#metaschool.GymTaskset), which lets us automatically sample and keep track of tasks.
 
 ~~~python
 import metaschool as ms
