@@ -21,10 +21,18 @@ Our hope is that it will simplify research in mutli-task, lifelong, and meta-rei
 * MSR Jumping: [https://arxiv.org/abs/1809.02591](https://arxiv.org/abs/1809.02591)
 * ... and more since metaschool is easily extensible.
 
-## Illustrative Demo
+## Mini Tutorial
+
+At its essence, `metaschool` builds on 3 basic classes:
+
+- [`EnvFactory`](http://learnables.net/metaschool/api/#metaschool.EnvFactory): A class to generate base Gym environments, given a configuration.
+- [`WrapperFactory`](http://learnables.net/metaschool/api/#metaschool.WrapperFactory): An (optional) class to generate wrappers, given a configuration.
+- [`TaskConfig`](http://learnables.net/metaschool/api/#metaschool.TaskConfig): A simple dict-like object to configure tasks.
 
 Let's assume we have a base Gym environment `DrivingEnv-v0` for training self-driving system in different conditions (locations, weather, car maker).
 We can turn this environment into a set of multiple tasks as follows.
+
+Note: here we also use a `GymTaskset`, which lets us automatically sample and keep track of tasks.
 
 ~~~python
 import metaschool as ms
@@ -41,7 +49,7 @@ class DrivingFactory(ms.EnvFactory):  # defines how to sample new base environme
         config.color = random.choice(['Volvo', 'Mercedes', 'Audi', 'Hummer'])
         return config
 
-class ChangingHorizonFactory(ms.WrapperFactory):  # (optional) let's us randomize base envs with wrappers
+class ChangingHorizonFactory(ms.WrapperFactory):  # let's us randomize base envs with wrappers
 
     def wrap(self, env, config):
         return gym.wrappers.TimeLimit(env, max_episode_steps=config.max_steps)
