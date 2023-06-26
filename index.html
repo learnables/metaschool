@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="assets/images/favicons_pink/favicon.ico">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-4.6.3">
+      <meta name="generator" content="mkdocs-1.2.4, mkdocs-material-4.6.3">
     
     
       
@@ -120,6 +120,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#resources" tabindex="0" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -127,7 +131,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="http://learnables.github.io/metaschool/" title="metaschool" aria-label="metaschool" class="md-header-nav__button md-logo">
           
-            <img alt="logo" src="assets/images/metaschool_white.png" width="24" height="24">
+            <img alt="logo" src="assets/images/metaschool_white_cropped.png" width="24" height="24">
           
         </a>
       </div>
@@ -219,7 +223,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <a href="http://learnables.github.io/metaschool/" title="metaschool" class="md-nav__button md-logo">
       
-        <img alt="logo" src="assets/images/metaschool_white.png" width="48" height="48">
+        <img alt="logo" src="assets/images/metaschool_white_cropped.png" width="48" height="48">
       
     </a>
     metaschool
@@ -259,9 +263,64 @@
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Home
+      </label>
+    
     <a href="." title="Home" class="md-nav__link md-nav__link--active">
       Home
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supported-environments" class="md-nav__link">
+    Supported Environments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mini-tutorial" class="md-nav__link">
+    Mini Tutorial
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changelog" class="md-nav__link">
+    Changelog
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citation" class="md-nav__link">
+    Citation
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -357,6 +416,63 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supported-environments" class="md-nav__link">
+    Supported Environments
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mini-tutorial" class="md-nav__link">
+    Mini Tutorial
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changelog" class="md-nav__link">
+    Changelog
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#citation" class="md-nav__link">
+    Citation
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -365,10 +481,87 @@
                 
                   <h1>Home</h1>
                 
-                <p align="center"><img src="https://raw.githubusercontent.com/learnables/metaschool/gh-pages/assets/images/metaschool-full.png?token=GHSAT0AAAAAABSOGMW6UXSSY6V7NN5DOMBUYSJJK7A" height="120px" /></p>
+                <!-- <p align="center"><img src="assets/images/metaschool-full.png" height="120px" /></p> -->
+<p align="center"><img src="https://raw.githubusercontent.com/learnables/metaschool/master/docs/assets/images/metaschool-full.png" height="120px" /></p>
 
 <hr />
 <p><img alt="Test Status" src="https://github.com/learnables/metaschool/workflows/Testing/badge.svg?branch=master" /></p>
+<p><code>metaschool</code> provides a simple multi-task interface on top of OpenAI Gym environments.
+Our hope is that it will simplify research in mutli-task, lifelong, and meta-reinforcement learning.</p>
+<h3 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Website: <a href="https://learnables.net/metaschool">learnables.net/metaschool</a></li>
+<li>Slack: <a href="http://slack.learn2learn.net/">slack.learn2learn.net</a></li>
+</ul>
+<h3 id="supported-environments">Supported Environments<a class="headerlink" href="#supported-environments" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Mujoco Locomotion: <a href="https://arxiv.org/abs/1703.03400">https://arxiv.org/abs/1703.03400</a></li>
+<li>Meta-World: <a href="https://arxiv.org/abs/1910.10897">https://arxiv.org/abs/1910.10897</a></li>
+<li>MSR Jumping: <a href="https://arxiv.org/abs/1809.02591">https://arxiv.org/abs/1809.02591</a></li>
+<li>... and more since metaschool is easily extensible.</li>
+</ul>
+<h2 id="mini-tutorial">Mini Tutorial<a class="headerlink" href="#mini-tutorial" title="Permanent link">&para;</a></h2>
+<p>At its essence, <code>metaschool</code> builds on 3 basic classes:</p>
+<ul>
+<li><a href="http://learnables.net/metaschool/api/#metaschool.EnvFactory"><code>EnvFactory</code></a>: A class to generate base Gym environments, given a configuration.</li>
+<li><a href="http://learnables.net/metaschool/api/#metaschool.WrapperFactory"><code>WrapperFactory</code></a>: An (optional) class to generate wrappers, given a configuration.</li>
+<li><a href="http://learnables.net/metaschool/api/#metaschool.TaskConfig"><code>TaskConfig</code></a>: A simple dict-like object to configure tasks.</li>
+</ul>
+<p>Now, say we have a base Gym environment <code>DrivingEnv-v0</code> for training self-driving system in different conditions (locations, weather, car maker).
+We can turn this environment into a set of multiple tasks as follows.</p>
+<p>Note: we also use a <a href="http://learnables.net/metaschool/api/#metaschool.GymTaskset"><code>GymTaskset</code></a>, which lets us automatically sample and keep track of tasks.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">metaschool</span> <span class="k">as</span> <span class="nn">ms</span>
+
+<span class="k">class</span> <span class="nc">DrivingFactory</span><span class="p">(</span><span class="n">ms</span><span class="o">.</span><span class="n">EnvFactory</span><span class="p">):</span>  <span class="c1"># defines how to sample new base environments</span>
+
+    <span class="k">def</span> <span class="nf">make</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+        <span class="n">env</span> <span class="o">=</span> <span class="n">gym</span><span class="o">.</span><span class="n">make</span><span class="p">(</span><span class="s1">&#39;DrivingEnv-v0&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">config</span><span class="p">)</span>
+        <span class="n">env</span> <span class="o">=</span> <span class="n">gym</span><span class="o">.</span><span class="n">wrappers</span><span class="o">.</span><span class="n">RecordEpisodeStatistics</span><span class="p">(</span><span class="n">env</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">env</span>
+
+    <span class="k">def</span> <span class="nf">sample</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">ms</span><span class="o">.</span><span class="n">TaskConfig</span><span class="p">(</span><span class="n">location</span><span class="o">=</span><span class="s1">&#39;Town2&#39;</span><span class="p">,</span> <span class="n">weather</span><span class="o">=</span><span class="s1">&#39;Sunny&#39;</span><span class="p">)</span>  <span class="c1"># TaskConfig is a dict-like configuration</span>
+        <span class="n">config</span><span class="o">.</span><span class="n">color</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="s1">&#39;Volvo&#39;</span><span class="p">,</span> <span class="s1">&#39;Mercedes&#39;</span><span class="p">,</span> <span class="s1">&#39;Audi&#39;</span><span class="p">,</span> <span class="s1">&#39;Hummer&#39;</span><span class="p">])</span>
+        <span class="k">return</span> <span class="n">config</span>
+
+<span class="k">class</span> <span class="nc">ChangingHorizonFactory</span><span class="p">(</span><span class="n">ms</span><span class="o">.</span><span class="n">WrapperFactory</span><span class="p">):</span>  <span class="c1"># let&#39;s us randomize base envs with wrappers</span>
+
+    <span class="k">def</span> <span class="nf">wrap</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">config</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">gym</span><span class="o">.</span><span class="n">wrappers</span><span class="o">.</span><span class="n">TimeLimit</span><span class="p">(</span><span class="n">env</span><span class="p">,</span> <span class="n">max_episode_steps</span><span class="o">=</span><span class="n">config</span><span class="o">.</span><span class="n">max_steps</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">sample</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">env</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">ms</span><span class="o">.</span><span class="n">TaskConfig</span><span class="p">(</span><span class="n">max_steps</span><span class="o">=</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">200</span><span class="p">))</span>
+
+<span class="n">taskset</span> <span class="o">=</span> <span class="n">GymTaskset</span><span class="p">(</span>  <span class="c1"># helps us create, replicate, and track tasks</span>
+    <span class="n">env_factory</span><span class="o">=</span><span class="n">DrivingFactory</span><span class="p">(),</span>
+    <span class="n">wrapper_factories</span><span class="o">=</span><span class="p">[</span><span class="n">ChangingHorizonFactory</span><span class="p">(),</span> <span class="p">],</span>
+<span class="p">)</span>
+
+<span class="k">for</span> <span class="n">iteration</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_iterations</span><span class="p">):</span>  <span class="c1"># learning over multiple tasks</span>
+    <span class="n">train_task</span> <span class="o">=</span> <span class="n">taskset</span><span class="o">.</span><span class="n">sample</span><span class="p">()</span>  <span class="c1"># train_task is a TimeLimit(RecordEpisodeStatistics(DrivingEnv)) with randomized configurations</span>
+    <span class="n">learner</span><span class="o">.</span><span class="n">learn</span><span class="p">(</span><span class="n">train_task</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">seen_task</span> <span class="ow">in</span> <span class="nb">iter</span><span class="p">(</span><span class="n">taskset</span><span class="p">):</span>  <span class="c1"># loops over all previously seen tasks</span>
+        <span class="n">loss</span> <span class="o">=</span> <span class="n">learner</span><span class="o">.</span><span class="n">eval</span><span class="p">(</span><span class="n">test_task</span><span class="p">)</span>
+</code></pre></div>
+<h2 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h2>
+<p>A human-readable changelog is available in the <a href="CHANGELOG.md">CHANGELOG.md</a> file.</p>
+<h2 id="citation">Citation<a class="headerlink" href="#citation" title="Permanent link">&para;</a></h2>
+<p>To cite this code in your academic publications, please use the following reference.</p>
+<blockquote>
+<p>Arnold, Sebastien M. R. “metaschool: A Gym Interface for Multi-Task Reinforcement Learning”. 2022.</p>
+</blockquote>
+<p>You can also use the following Bibtex entry.</p>
+<div class="highlight"><pre><span></span><code><span class="nc">@software</span><span class="p">{</span><span class="nl">Arnold20222022</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Arnold, Sebastien M. R.}</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="na">doi</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{10.5281/zenodo.1234}</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="na">month</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{12}</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{{metaschool: A Gym Interface for Multi-Task Reinforcement Learning}}</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="na">url</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{https://github.com/learnables/metaschool}</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="na">version</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{0.0.1}</span><span class="p">,</span><span class="w"></span>
+<span class="w">  </span><span class="na">year</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2022}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</code></pre></div>
                 
                   
                 
@@ -438,7 +631,7 @@
     
       <script src="assets/javascripts/application.c33a9706.js"></script>
       
-      <script>app.initialize({version:"1.2.3",url:{base:"."}})</script>
+      <script>app.initialize({version:"1.2.4",url:{base:"."}})</script>
       
         <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
       
