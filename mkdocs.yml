@@ -18,7 +18,7 @@ repo_url: 'https://github.com/learnables/metaschool'
 edit_uri: ''
 theme:
   name: 'material'
-  logo: 'assets/images/metaschool_white.png'
+  logo: 'assets/images/metaschool_white_cropped.png'
   favicon: 'assets/images/favicons_pink/favicon.ico'
   palette:
     primary: 'pink'

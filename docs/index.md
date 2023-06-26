@@ -21,10 +21,18 @@ Our hope is that it will simplify research in mutli-task, lifelong, and meta-rei
 * MSR Jumping: [https://arxiv.org/abs/1809.02591](https://arxiv.org/abs/1809.02591)
 * ... and more since metaschool is easily extensible.
 
-## Minimal Demo
+## Mini Tutorial
 
-Let's assume we have a base Gym environment `DrivingEnv-v0` for training self-driving system in different conditions (locations, weather, car maker).
+At its essence, `metaschool` builds on 3 basic classes:
+
+- [`EnvFactory`](http://learnables.net/metaschool/api/#metaschool.EnvFactory): A class to generate base Gym environments, given a configuration.
+- [`WrapperFactory`](http://learnables.net/metaschool/api/#metaschool.WrapperFactory): An (optional) class to generate wrappers, given a configuration.
+- [`TaskConfig`](http://learnables.net/metaschool/api/#metaschool.TaskConfig): A simple dict-like object to configure tasks.
+
+Now, say we have a base Gym environment `DrivingEnv-v0` for training self-driving system in different conditions (locations, weather, car maker).
 We can turn this environment into a set of multiple tasks as follows.
+
+Note: we also use a [`GymTaskset`](http://learnables.net/metaschool/api/#metaschool.GymTaskset), which lets us automatically sample and keep track of tasks.
 
 ~~~python
 import metaschool as ms
@@ -41,7 +49,7 @@ class DrivingFactory(ms.EnvFactory):  # defines how to sample new base environme
         config.color = random.choice(['Volvo', 'Mercedes', 'Audi', 'Hummer'])
         return config
 
-class ChangingHorizonFactory(ms.WrapperFactory):  # (optional) let's us randomize base envs with wrappers
+class ChangingHorizonFactory(ms.WrapperFactory):  # let's us randomize base envs with wrappers
 
     def wrap(self, env, config):
         return gym.wrappers.TimeLimit(env, max_episode_steps=config.max_steps)
@@ -70,7 +78,7 @@ A human-readable changelog is available in the [CHANGELOG.md](CHANGELOG.md) file
 
 To cite this code in your academic publications, please use the following reference.
 
-> Arnold, Sebastien M. R. “metaschool: Utilities for Multi-Task Reinforcement Learning”. 2022.
+> Arnold, Sebastien M. R. “metaschool: A Gym Interface for Multi-Task Reinforcement Learning”. 2022.
 
 You can also use the following Bibtex entry.
 
@@ -79,7 +87,7 @@ You can also use the following Bibtex entry.
   author = {Arnold, Sebastien M. R.},
   doi = {10.5281/zenodo.1234},
   month = {12},
-  title = {{metaschool: Utilities for Multi-Task Reinforcement Learning}},
+  title = {{metaschool: A Gym Interface for Multi-Task Reinforcement Learning}},
   url = {https://github.com/learnables/metaschool},
   version = {0.0.1},
   year = {2022}

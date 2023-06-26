@@ -130,3 +130,7 @@ dmypy.json
 
 # Custom
 .all_objects.cache
+wandb/*
+**/wandb/*
+.DS_Store
+**/.DS_Store
