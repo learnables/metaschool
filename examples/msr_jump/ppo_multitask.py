@@ -7,7 +7,7 @@ import simple_parsing as sp
 import tqdm
 import wandb
 
-import msr_jump_factory as mjf
+import msr_jump_factories as mjf
 import utils
 import models
 
@@ -22,7 +22,7 @@ def main(args=None):
     # initial setup
     device = utils.initial_setup(
         run_name='ppo-jump-cnn-multi-75ep',
-        use_wandb=True,
+        use_wandb=False,
         cuda=True,
     )
 
@@ -56,7 +56,7 @@ def main(args=None):
         )
     policy.to(device)
 
-    algo = ms.algorithms.PPO()
+    algo = cherry.algorithms.PPO()
     optimizer = torch.optim.Adam(policy.parameters(), lr=0.001)
     schedule = torch.optim.lr_scheduler.MultiplicativeLR(
         optimizer=optimizer,
@@ -88,7 +88,7 @@ def main(args=None):
             replay=replay,
             optimizer=optimizer,
             policy=policy,
-            value_fn=policy.value,
+            state_value=policy.value,
         )
         stats.update(update_stats)
         schedule.step()

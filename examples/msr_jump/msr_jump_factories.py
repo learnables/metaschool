@@ -40,12 +40,12 @@ class MSRJumpFactory(ms.EnvFactory):
         if self.vision_observations:
             if self.frame_stack > 1:
                 env = gym.wrappers.FrameStack(env, self.frame_stack)
-                env = cherry.envs.StateLambda(
+                env = cherry.wrappers.StateLambda(
                     env=env,
                     fn=lambda s: np.array(s).transpose(1, 0, 2, 3),
                 )
             else:
-                env = cherry.envs.StateLambda(env, lambda s: s.unsqueeze(0))
+                env = cherry.wrappers.StateLambda(env, lambda s: s.unsqueeze(0))
         return env
 
     def sample(self):
@@ -71,6 +71,6 @@ class JumpWrapperFactory(ms.WrapperFactory):
         return env, None
 
     def wrap(self, env, config):
-        env = cherry.envs.Torch(env)
-        env = cherry.envs.Runner(env)
+        env = cherry.wrappers.Torch(env)
+        env = cherry.wrappers.Runner(env)
         return env

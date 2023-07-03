@@ -3,7 +3,7 @@ nav:
   - Home: index.md
   - Documentation:
     - metaschool: api/index.md
-    - metaschool.tasks: api/metaschool.tasks.md
+    # - metaschool.tasks: api/metaschool.tasks.md
     - metaschool.envs: api/metaschool.envs.md
   - Changelog: changelog.md
   - GitHub: https://github.com/learnables/metaschool/
